@@ -27,25 +27,7 @@ afterAll(async () => {
 
 describe('getTestDb()', () => {
   test('Gets test database', async () => {
-    expect(await getTestDb().stats()).toMatchInlineSnapshot(`
-      Object {
-        "avgObjSize": 0,
-        "collections": 0,
-        "dataSize": 0,
-        "db": "${dbName}",
-        "fileSize": 0,
-        "fsTotalSize": 0,
-        "fsUsedSize": 0,
-        "indexSize": 0,
-        "indexes": 0,
-        "numExtents": 0,
-        "objects": 0,
-        "ok": 1,
-        "scaleFactor": 1,
-        "storageSize": 0,
-        "views": 0,
-      }
-    `)
+    expect((await getTestDb().stats()).db).toBe(dbName)
   })
 })
 
