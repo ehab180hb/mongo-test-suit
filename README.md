@@ -2,7 +2,7 @@ A set of helper utility functions that makes testing MongoDB-based projects quic
 
 # Installation
 
-[![NPM Info](https://nodei.co/npm/mongo-test-suit?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.org/package/mongo-test-suit)
+[![NPM Info](https://nodei.co/npm/mongo-test-suit.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.org/package/mongo-test-suit)
 
 [![Build Status](https://travis-ci.org/ehab180hb/mongo-test-suit.svg?branch=master)](https://travis-ci.org/ehab180hb/mongo-test-suit)
 
