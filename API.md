@@ -92,8 +92,6 @@ await updateObjInCollection({
 
 Will drop the test DB.
 
-- `value` - the value to validate.
-
 ```typescript
 afterAll(async () => {
   await flushDb()
