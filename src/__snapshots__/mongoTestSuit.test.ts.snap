@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fillCollection() Properly fills the collection 1`] = `
+Object {
+  "_id": "5ea17b9575fd19491a3a9e90",
+  "k": "v",
+}
+`;
+
+exports[`getCollectionSnapshot() Gets a snapshot of the collections with the IDs 1`] = `
+Array [
+  Object {
+    "_id": "5ea17b9575fd19491a3a9e90",
+    "k": "v",
+  },
+]
+`;
+
+exports[`getCollectionSnapshot() Gets a snapshot of the collections without the IDs 1`] = `
+Array [
+  Object {
+    "k": "v",
+  },
+]
+`;
+
+exports[`getObjectSnapshot() When getting the object with the IDs 1`] = `
+Object {
+  "_id": "5ea17b9575fd19491a3a9e90",
+  "k": "v",
+}
+`;
+
+exports[`getObjectSnapshot() When getting the object without the IDs 1`] = `
+Object {
+  "k": "v",
+}
+`;
+
+exports[`updateObjInCollection() Properly updates the object 1`] = `
+Object {
+  "_id": "5ea17b9575fd19491a3a9e90",
+  "k": "newValue",
+}
+`;
