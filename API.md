@@ -48,7 +48,7 @@ await fillCollection('MyCollection', [{ k: 'v' }, { k: 'v2' }])
 Will capture a snapshot of the given collection name.
 
 - `collectionName` - The name of the collection
-- `removeIds` - Optional. Whether or not to rome the \_id field on returned objects. Useful when the IDs are generating dynamically and you're using Jest's `toMatchSnapshot` method to assert.
+- `removeIds` - Optional. Whether or not to remove the \_id field on returned objects. Useful when the IDs are generated dynamically and you're using Jest's `toMatchSnapshot` method to assert.
 
 ```typescript
 expect(await getCollectionSnapshot({ collectionName: 'MyCollection', removeIds: true })).toMatchSnapshot()
@@ -60,7 +60,7 @@ Captures a snapshot of the object.
 
 - `collectionName` - The name of the collection
 - `id` - the ObjectId of the db record.
-- `removeIds` - Optional. Whether or not to rome the \_id field on returned objects. Useful when the IDs are generating dynamically and you're using Jest's `toMatchSnapshot` method to assert.
+- `removeIds` - Optional. Whether or not to remove the \_id field on returned objects. Useful when the IDs are generating dynamically and you're using Jest's `toMatchSnapshot` method to assert.
 
 ```typescript
 expect(
