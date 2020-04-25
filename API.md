@@ -64,7 +64,7 @@ Captures a snapshot of the object.
 
 ```typescript
 expect(
-  await getCollectionSnapshot({
+  await getObjectSnapshot({
     collectionName: 'MyCollection',
     id: new ObjectId('5ea1dd789f51b08e93850ae9'),
     removeIds: true,
